@@ -1,0 +1,23 @@
+{
+  "name": "docker-chrome-headless-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viettd56/docker-chrome-headless-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viettd56/docker-chrome-headless-example/issues"
+  },
+  "homepage": "https://github.com/viettd56/docker-chrome-headless-example#readme",
+  "dependencies": {
+    "chromedriver": "^2.32.2",
+    "selenium-webdriver": "^3.5.0"
+  }
+}

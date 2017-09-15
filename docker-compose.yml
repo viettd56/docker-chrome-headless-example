@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  app:
+    container_name: app
+    build: app
+    volumes:
+      - /dev/shm:/dev/shm
+    privileged: true
